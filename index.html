@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.min.css">
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icon Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- title  -->
+    <title>Bayer</title>
+  </head>
+<body>
+  <header>
+    <!-- start header section  -->
+    <div class="header-section">
+      <div class="header-wrapper">
+        <ul class="header-left-content ">
+          <li class="d-none d-xl-block fs-5"><a href="#" class="text-white text-decoration-none">Providers</a></li>
+          <li class="d-none d-xl-block fs-5 ms-5"><a href="#" class="text-white text-decoration-none">News</a></li>
+          <li class="d-none d-xl-block fs-5 ms-5"><a href="#" class="text-white text-decoration-none">About Us</a></li>
+          <li class="d-none d-xl-block fs-5 ms-5"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+          <button type="button" class="btn btn-primary button ms-xl-5" data-bs-toggle="modal" data-bs-target="#myModal">
+            <i class="fas fa-search me-3"></i>Search
+          </button>
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog ">
+              <div class="modal-content ">
+                <div class="modal-header search">
+                  <input type="text" placeholder="Search Keyword">
+                  <button class="btn">Search</button>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+        <ul class="header-right-content list-unstyled">
+          <li class="list-style-none "><a href="#" class="text-white text-decoration-none "><i class="fas fa-user me-2"></i>BlueAccess<sup>&reg;</sup>Login/Pay Bill</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- start nav section  -->
+    <nav class="navbar navbar-expand-lg bg-light bottom-header-section">
+      <div class="container container-wrapper">
+          <div class="image-logo">
+            <a class="navbar-brand" href="#">
+              <img src="./public/images/logo.png" alt="logoimage" width="100%" height="70px">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <i class="fas fa-bars text-dark h1"></i>
+          </button>
+          <div class="collapse navbar-collapse menus-section" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item dropdown"> 
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    Find Insurance
+                  </a> 
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li> 
+                    <!-- inner dropmenu     --> 
+                    <li class="dropdown-submenu"> 
+                        <a class="dropdown-item dropdown-toggle" href="#">Members</a> 
+                        <ul class="dropdown-menu"> 
+                            <li><a class="dropdown-item" href="#">Forms</a></li> 
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                            <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                            <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                            <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                        </ul> 
+                    </li>
+                  <li class="dropdown-submenu"> 
+                    <a class="dropdown-item dropdown-toggle" href="#">Employers</a> 
+                    <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="#">Forms</a></li> 
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                        <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                        <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                        <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                        <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                    </ul> 
+                </li>
+                <li class="dropdown-submenu"> 
+                  <a class="dropdown-item dropdown-toggle" href="#">Providers</a> 
+                  <ul class="dropdown-menu"> 
+                      <li><a class="dropdown-item" href="#">Forms</a></li> 
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                      <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                      <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                      <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                      <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                  </ul> 
+              </li>
+              <li class="dropdown-submenu"> 
+                <a class="dropdown-item dropdown-toggle" href="#">What to do when</a> 
+                <ul class="dropdown-menu"> 
+                    <li><a class="dropdown-item" href="#">Forms</a></li> 
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                    <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                    <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                    <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                    <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                </ul> 
+            </li>
+                </ul> 
+              </li> 
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item dropdown"> 
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    Customer Service
+                  </a> 
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li> 
+                    <!-- inner dropmenu     --> 
+                    <li class="dropdown-submenu"> 
+                        <a class="dropdown-item dropdown-toggle" href="#">Members</a> 
+                        <ul class="dropdown-menu"> 
+                            <li><a class="dropdown-item" href="#">Forms</a></li> 
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                            <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                            <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                            <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                        </ul> 
+                    </li>
+                  <li class="dropdown-submenu"> 
+                    <a class="dropdown-item dropdown-toggle" href="#">Employers</a> 
+                    <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="#">Forms</a></li> 
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                        <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                        <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                        <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                        <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                    </ul> 
+                </li>
+                <li class="dropdown-submenu"> 
+                  <a class="dropdown-item dropdown-toggle" href="#">Providers</a> 
+                  <ul class="dropdown-menu"> 
+                      <li><a class="dropdown-item" href="#">Forms</a></li> 
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                      <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                      <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                      <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                      <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                  </ul> 
+              </li>
+              <li class="dropdown-submenu"> 
+                <a class="dropdown-item dropdown-toggle" href="#">What to do when</a> 
+                <ul class="dropdown-menu"> 
+                    <li><a class="dropdown-item" href="#">Forms</a></li> 
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                    <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                    <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                    <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                    <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                </ul> 
+            </li>
+                </ul> 
+              </li> 
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item dropdown"> 
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    Health and Wellness
+                  </a> 
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li> 
+                    <!-- inner dropmenu     --> 
+                    <li class="dropdown-submenu"> 
+                        <a class="dropdown-item dropdown-toggle" href="#">Members</a> 
+                        <ul class="dropdown-menu"> 
+                            <li><a class="dropdown-item" href="#">Forms</a></li> 
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                            <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                            <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                            <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                        </ul> 
+                    </li>
+                  <li class="dropdown-submenu"> 
+                    <a class="dropdown-item dropdown-toggle" href="#">Employers</a> 
+                    <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="#">Forms</a></li> 
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                        <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                        <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                        <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                        <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                    </ul> 
+                </li>
+                <li class="dropdown-submenu"> 
+                  <a class="dropdown-item dropdown-toggle" href="#">Providers</a> 
+                  <ul class="dropdown-menu"> 
+                      <li><a class="dropdown-item" href="#">Forms</a></li> 
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                      <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                      <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                      <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                      <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                  </ul> 
+              </li>
+              <li class="dropdown-submenu"> 
+                <a class="dropdown-item dropdown-toggle" href="#">What to do when</a> 
+                <ul class="dropdown-menu"> 
+                    <li><a class="dropdown-item" href="#">Forms</a></li> 
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                    <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                    <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                    <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                    <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                </ul> 
+            </li>
+                </ul> 
+              </li> 
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item dropdown"> 
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    Prescription Drugs
+                  </a> 
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li> 
+                    <!-- inner dropmenu     --> 
+                    <li class="dropdown-submenu"> 
+                        <a class="dropdown-item dropdown-toggle" href="#">Members</a> 
+                        <ul class="dropdown-menu"> 
+                            <li><a class="dropdown-item" href="#">Forms</a></li> 
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                            <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                            <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                            <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                        </ul> 
+                    </li>
+                  <li class="dropdown-submenu"> 
+                    <a class="dropdown-item dropdown-toggle" href="#">Employers</a> 
+                    <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="#">Forms</a></li> 
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                        <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                        <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                        <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                        <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                    </ul> 
+                </li>
+                <li class="dropdown-submenu"> 
+                  <a class="dropdown-item dropdown-toggle" href="#">Providers</a> 
+                  <ul class="dropdown-menu"> 
+                      <li><a class="dropdown-item" href="#">Forms</a></li> 
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                      <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                      <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                      <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                      <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                  </ul> 
+              </li>
+              <li class="dropdown-submenu"> 
+                <a class="dropdown-item dropdown-toggle" href="#">What to do when</a> 
+                <ul class="dropdown-menu"> 
+                    <li><a class="dropdown-item" href="#">Forms</a></li> 
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                    <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                    <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                    <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                    <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                </ul> 
+            </li>
+                </ul> 
+              </li> 
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item dropdown"> 
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    Mental Health
+                  </a> 
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li> 
+                    <!-- inner dropmenu     --> 
+                    <li class="dropdown-submenu"> 
+                        <a class="dropdown-item dropdown-toggle" href="#">Members</a> 
+                        <ul class="dropdown-menu"> 
+                            <li><a class="dropdown-item" href="#">Forms</a></li> 
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                            <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                            <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                            <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                        </ul> 
+                    </li>
+                  <li class="dropdown-submenu"> 
+                    <a class="dropdown-item dropdown-toggle" href="#">Employers</a> 
+                    <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="#">Forms</a></li> 
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                        <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                        <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                        <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                        <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                    </ul> 
+                </li>
+                <li class="dropdown-submenu"> 
+                  <a class="dropdown-item dropdown-toggle" href="#">Providers</a> 
+                  <ul class="dropdown-menu"> 
+                      <li><a class="dropdown-item" href="#">Forms</a></li> 
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                      <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                      <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                      <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                      <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                  </ul> 
+              </li>
+              <li class="dropdown-submenu"> 
+                <a class="dropdown-item dropdown-toggle" href="#">What to do when</a> 
+                <ul class="dropdown-menu"> 
+                    <li><a class="dropdown-item" href="#">Forms</a></li> 
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                    <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                    <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                    <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                    <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                </ul> 
+            </li>
+                </ul> 
+              </li> 
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item dropdown"> 
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                    Find a Doctor/Hospital
+                  </a> 
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li> 
+                    <!-- inner dropmenu     --> 
+                    <li class="dropdown-submenu"> 
+                        <a class="dropdown-item dropdown-toggle" href="#">Members</a> 
+                        <ul class="dropdown-menu"> 
+                            <li><a class="dropdown-item" href="#">Forms</a></li> 
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                            <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                            <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                            <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                            <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                        </ul> 
+                    </li>
+                  <li class="dropdown-submenu"> 
+                    <a class="dropdown-item dropdown-toggle" href="#">Employers</a> 
+                    <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="#">Forms</a></li> 
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                        <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                        <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                        <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                        <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                    </ul> 
+                </li>
+                <li class="dropdown-submenu"> 
+                  <a class="dropdown-item dropdown-toggle" href="#">Providers</a> 
+                  <ul class="dropdown-menu"> 
+                      <li><a class="dropdown-item" href="#">Forms</a></li> 
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                      <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                      <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                      <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                      <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                  </ul> 
+              </li>
+              <li class="dropdown-submenu"> 
+                <a class="dropdown-item dropdown-toggle" href="#">What to do when</a> 
+                <ul class="dropdown-menu"> 
+                    <li><a class="dropdown-item" href="#">Forms</a></li> 
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li> 
+                    <li><a class="dropdown-item" href="#">Newsletters</a></li> 
+                    <li><a class="dropdown-item" href="#">Telemedicine</a></li> 
+                    <li><a class="dropdown-item" href="#">State of kansas employees</a></li> 
+                    <li><a class="dropdown-item" href="#">Federal Employee Plan</a></li> 
+                </ul> 
+            </li>
+                </ul> 
+              </li> 
+            </ul>
+            </div>
+      </div>
+    </nav>
+    <!-- end nav section  -->
+    </div>
+    <!-- end header section  -->
+  </header>
+  <main>
+      <!-- start enrollment section  -->
+      <div class="enrollment-section text-white text-center pt-3 pt-xl-0">
+        <p class="fs-4 fw-4 p-3 mb-0">Don't delay ! Open enrollment ends Jan. 15,2022 <a href="#" class="text-white fs-5">Find your 2022 plan now.</a></p>
+      </div>
+      <!-- end enrollment section  -->
+      <!-- start banner section  -->
+      <div class="banner-section">
+        <div class="banner-inner">
+          <div class="banner-wrapper">
+              <div class="banner-wrapper-image">
+                <img src="./public/images/banner.png" class="image" width="100%" alt="banner-picture">
+              </div>
+              <div class="banner-content">
+                <h1 class="text-white">Enroll in BlueCare today</h1>
+                <p class="text-white mb-0 py-2">for coverage effective January 1</p>
+                <p class="mb-0 py-2"><a href="#" class="text-white">INDIVIDUAL AND FAMILY PLANS<i class="fas fa-arrow-right ms-2"></i></a></p>
+                <p class="mb-0 py-2"><a href="#" class="text-white">MEDICARE PLANS<i class="fas fa-arrow-right ms-2"></i></a></p>
+                <p class="mb-0 py-2"><a href="#" class="text-white">EMPLOYER AND GROUP PLANS<i class="fas fa-arrow-right ms-2"></i></a></p>
+                <p class="mt-2"><button type="button" class="btn button text-white">EXPLORE OUR ACA PLANS</button></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- end banner section  -->
+      <!-- start right-care-section  -->
+      <div class="right-care-section">
+        <div class="image-care">
+          <img src="./public/images/rightcare.png" alt="Rightcare image" width="100%">
+        </div>
+        <div class="right-care-section-content">
+          <h2>Find the right care. Right now.</h2>
+          <p>To better connect kansans with in-network mental health care,BCBSKS has partnered with MiResource to help guide you through the process of identifying the right mental health care for your unique needs whether it's your first time seeking care,or you are reestablishing treatment or you are helping a loved one.</p>
+          <div class="button"><button type="button" class="btn text-white text-center m-0">GET HELP NOW<i class="far fa-share-square ms-3"></i></button></div>
+          <p class="more"><a href="#">MORE MENTAL HEALTH RESOURCES<i class="fas fa-arrow-right ms-2"></i></a></p>
+        </div>
+      </div>
+      <!-- end right-care-section -->
+      <!-- start covid-19-covered-section  -->
+      <div class="covid-19-covered-section">
+        <div class="covid-19-covered-section-content">
+            <h2>COVID-19: We've got you covered.</h2>
+            <div class="overall-card">
+              <div class="card border-info mt-4">
+                <div class="card-body border-info">
+                  <div class="card-title">COVID-19:Blue Cross Member FAQs</div>
+                  <div class="card-text txt">BCBKs members can find answer to common questions related to COVID-19 and What we are doing to support you</div>
+                  <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+                </div>
+              </div>
+              <div class="card border-info mt-4">
+                <div class="card-body border-info">
+                  <div class="card-title">COVID-19:Employer Resource Center</div>
+                  <div class="card-text">BCBKs members can find answer to common questions related to COVID-19 and What we are doing to support you</div>
+                  <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+                </div>
+              </div>
+              <div class="card border-info mt-4">
+                <div class="card-body border-info">
+                  <div class="card-title">COVID-19:Loss of coverage or income</div>
+                  <div class="card-text">BCBKs members can find answer to common questions related to COVID-19 and What we are doing to support you</div>
+                  <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- end covid-19-covered-section  -->
+      <!-- start shop-plan-section  -->
+      <div class="shop-plan-section">
+        <div class="shop-plan-section-wrapper">
+          <h2>Shop for a plan</h2>
+          <p class="content">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <div class="shop-plan-overall-card">
+            <div class="three-card">
+            <div class="card mt-4">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fas fa-user text-white fs-2"></i>
+                  </div>
+                  <h5 class="card-title">Individual and family plans</h5>
+                  <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                  <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fas fa-users text-white fs-2"></i>
+                  </div>
+                  <h5 class="card-title">Business health insurance</h5>
+                  <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                  <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fas fa-briefcase-medical text-white fs-2"></i>
+                  </div>
+                  <h5 class="card-title">Medicare plans</h5>
+                  <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                  <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+                </div>
+            </div>
+          </div>
+          <div class="three-card">
+            <div class="card mt-4">
+              <div class="card-body">
+                <div class="icon">
+                  <i class="fas fa-tooth text-white fs-2"></i>
+                </div>
+                <h5 class="card-title">Dental Plans</h5>
+                <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-body">
+                <div class="icon">
+                  <i class="fas fa-globe-americas text-white fs-2"></i>
+                </div>
+                <h5 class="card-title">Traveling or living abroad?</h5>
+                <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                <div class="link"><a href="#" class="card-link">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-body">
+                <div class="icon">
+                  <i class="fas fa-map-marker-alt text-white fs-2"></i>
+                </div>
+                <h5 class="card-title">Other coverage options</h5>
+                <p class="pt-2 card-link"><a href="#" class="insurance-1">Short term disability insurance and life insurance</a></p>
+                <p><a href="#" class="insurance-1">Cancer and hopital insurance</a></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- end shop-plan-section  -->
+      <!-- start health assessment section  -->
+      <div class="health-assessment-section">
+        <div class="health-assessment-section-wrapper text-center ">
+          <h2>Health Assessment</h2>
+          <p class="pt-2">Members: Login to BlueAccess to complete your health assessment through the WebMD portal</p>
+          <div class="button-health pt-2"><button type="button" class="btn text-white text-center m-0">GET STARTED<i class="far fa-share-square ms-3"></i></button></div>
+        </div>
+      </div>
+      <!-- end health assessment section  -->
+      <!-- start latest-section  -->
+      <div class="latest-section">
+        <div class="latest-section-wrapper">
+          <div class="latest-section-wrapper-content">
+              <h2>Our Latest You + blue.</h2>
+              <div class="button py-4"><button type="button" class="btn text-white text-center m-0">EXPLORE THE BLOG</button></div>
+          </div>
+          <div class="latest-section-wrapper-image">
+            <img src="./public/images/image-2.png" alt="digital-ID-card-image" width="100%">
+            <p class="pt-5 pb-2"><a href="#">Accessing your digital ID card</a></p>
+          </div>
+          <div class="latest-section-wrapper-image">
+            <img src="./public/images/image1.png" alt="digital-ID-card-image" width="100%">
+            <p class="pt-5 pb-2"><a href="#" class="py-3">HPV vaccination rates decline</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- end latest-section  -->
+      <div class="questions-section">
+        <div class="question-section-wrapper">
+          <h2 class="text-center">Questions?</h2>
+          <div class="question-section-wrapper-overall-card">
+            <div class="card border-info mt-4 py-lg-3">
+              <div class="card-body">
+                <div class="card-text">I Wany to....</div>
+                <div class="card-link">
+                  <ul>
+                    <li><a href="#">Pay my bill</a></li>
+                    <li><a href="#">Check my claim/view online EQBs</a></li>
+                    <li><a href="#">Find a doctor or hospital</a></li>
+                    <li><a href="#">Find covered precription drugs</a></li>
+                    <li><a href="#">Change my address</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-info mt-4 py-lg-3">
+              <div class="card-body">
+                <div class="card-text">I have a....</div>
+                <div class="card-link">
+                  <ul>
+                    <li><a href="#">Pay my bill</a></li>
+                    <li><a href="#">Check my claim/view online EQBs</a></li>
+                    <li><a href="#">Find a doctor or hospital</a></li>
+                    <li><a href="#">Find covered precription drugs</a></li>
+                    <li><a href="#">Change my address</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-info mt-4 py-lg-3">
+              <div class="card-body">
+                <div class="card-text">We're here for you</div>
+                <p class="fs-6 fw-1">Our customer service team is ready to help you when you need us most.Find out how to reach us.</p>
+                <div class="card-link">
+                  <div class="link mt-lg-5"><a href="#" class="card-link service">Learn More<i class="fas fa-arrow-right ms-3"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer>
+    <!-- start footer section  -->
+    <div class="footer-section-content">
+      <div class="content-footer py-3">
+        <h4 class="py-xl-3">Careers</h4>
+        <p>Work for one of the most trusted comapanies in Kansas</p>
+        <div class="button"><button type="button" class="btn text-white text-center m-0">APPLY NOW</button></div>
+      </div>
+      <div class="content-footer py-3">
+        <h4>Information</h4>
+        <ul class="py-xl-3">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy and Legal</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">En Epal</a></li>
+          <li class="pe-lg-3"><a href="#">Non-Descrimination , Translation and Interpretation Services</a></li>
+        </ul>
+      </div>
+      <div class="content-footer py-3">
+        <h4>Site Resources</h4>
+        <ul class="py-xl-3">
+          <li><a href="#">Glossary</a></li>
+          <li><a href="#">Security Tips</a></li>
+          <li><a href="#">Contact Webmaster</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="line">
+      <hr class="text-white">
+    </div>
+    <div class="footer-section-copyrights">
+      <div class="icon-social-media d-flex justify-content-center flex-wrap  align-items-end">
+        <p><a href="#" class="text-white text-center"><i class="fab fa-facebook-f"></i></a></p>
+        <p><a href="#" class="text-white text-center"><i class="fab fa-twitter"></i></a></p>
+        <p><a href="#" class="text-white text-center"><i class="fab fa-linkedin-in"></i></a></p>
+        <p><a href="#" class="text-white text-center"><i class="fab fa-wikipedia-w"></i></a></p>
+        <p><a href="#" class="text-white  text-center"><i class="fab fa-instagram"></i></a></p>
+        <p><a href="#" class="text-white text-center"><i class="fab fa-youtube"></i></a></p>
+        <p><a href="#" class="text-white text-center"><i class="fab fa-pinterest-p"></i></a></p>
+      </div>
+      <div class="register py-3">
+        <p class="p-0 m-0">Blue Cross and Blue Shield of Kansas is an idependent licensee of the blue cross blue Shield association.</p>
+        <p class="p-0 m-0">Blue Cross and Blue Shield of Kansas is an idependent licensee of the blue cross blue Shield association.</p>
+        &reg; Registered Trademarks of the blue cross bule shield association.
+        If you have any questions or comments about this site,please notify our webmaster.
+      </div>
+    </div>
+    <!-- end footer section  -->
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"  integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+</body>
+</html>
